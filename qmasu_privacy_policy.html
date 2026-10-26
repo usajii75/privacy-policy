@@ -137,7 +137,7 @@
 <section id="japanese">
   <span class="section-lang">日本語</span>
   <h2>プライバシーポリシー</h2>
-  <p class="updated">最終更新日：2025年7月</p>
+  <p class="updated">最終更新日：2026年10月26日</p>
 
   <div class="highlight-box">
     本アプリ「九マス将棋」は、ユーザーの個人情報を直接収集・保存・共有しません。
@@ -145,20 +145,20 @@
 
   <h3>1. 収集する情報</h3>
   <p>
-    本アプリは、アカウント登録・ログイン機能を持たず、氏名・メールアドレス・電話番号・位置情報などの個人情報を収集しません。
-    ゲームの進行データはすべて端末内にのみ保存され、外部サーバーへ送信されることはありません。
+    本アプリはアカウント登録・ログイン機能を持たず、開発者が氏名・メールアドレス・電話番号を直接収集する機能はありません。広告SDKによる情報の取り扱いは次項をご確認ください。
+    勝利数、評価依頼済みの節目、更新通知の表示日時などの設定は端末内に保存し、開発者のサーバーへ送信しません。最新版の確認のためGitHub Pagesの公開設定ファイルへアクセスしますが、勝利数や指し手は送信せず、バージョン比較は端末内で行います。評価依頼はAppleまたはGoogleのOS標準機能を使用します。
   </p>
 
-  <h3>2. 広告について（AdMob）</h3>
+  <h3>2. 広告について（AdMob / Unity Ads）</h3>
   <p>
-    本アプリは Google AdMob（Google LLC）のバナー広告を表示します。
-    AdMob は広告配信の最適化を目的として、以下の情報を収集することがあります。
+    本アプリは、起動画面に Unity Ads、対局画面に Google AdMob（Google LLC）のバナー広告を表示します。
+    これらの広告サービスは広告配信の最適化を目的として、以下の情報を収集することがあります。
   </p>
   <ul>
     <li>広告識別子（IDFA / GAID）</li>
     <li>デバイス情報（OS バージョン、機種など）</li>
     <li>IP アドレス（おおよその所在地の推定に使用）</li>
-    <li>アプリの使用状況に関する匿名の統計情報</li>
+    <li>広告の表示・タップなどの利用情報や診断情報</li>
   </ul>
   <p>
     iOS では、パーソナライズ広告の配信前に App Tracking Transparency（ATT）フレームワークに基づき、
@@ -172,9 +172,11 @@
     </a>
   </p>
 
+  <p>Unity Ads によるデータの取り扱いについては、<a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity のプライバシーポリシー</a>をご参照ください。</p>
+
   <h3>3. サードパーティへの情報提供</h3>
   <p>
-    本アプリは、広告配信目的（AdMob）以外の目的で、第三者にユーザー情報を提供・販売・開示しません。
+    本アプリは、広告配信目的（AdMob / Unity Ads）以外の目的で、第三者にユーザー情報を提供・販売・開示しません。
   </p>
 
   <h3>4. 子どものプライバシー</h3>
@@ -185,7 +187,7 @@
 
   <h3>5. セキュリティ</h3>
   <p>
-    本アプリはサーバーを持たず、外部にデータを送信しないため、サーバーサイドの情報漏洩リスクはありません。
+    開発者はゲームの進行データを保存するサーバーを運用していません。広告SDKや更新確認に伴う通信には、各サービスのデータ取り扱いが適用されます。
     端末内に保存されるデータの保護は、各 OS のセキュリティ機能に準じます。
   </p>
 
@@ -209,7 +211,7 @@
 <section id="english">
   <span class="section-lang">English</span>
   <h2>Privacy Policy</h2>
-  <p class="updated">Last updated: July 2025</p>
+  <p class="updated">Last updated: October 26, 2026</p>
 
   <div class="highlight-box">
     Nine-Square Shogi does not directly collect, store, or share any personal information from its users.
@@ -218,20 +220,19 @@
   <h3>1. Information We Collect</h3>
   <p>
     This app does not require account registration or login. We do not collect personal information such as
-    your name, email address, phone number, or location. All gameplay data is stored locally on your device
-    and is never transmitted to external servers.
+    your name, email address, or phone number directly. Win counts, review milestones, and update reminder settings are stored locally. The app fetches a public configuration file from GitHub Pages to check for updates; win counts and moves are not included in that request, and version comparison is performed on the device. Review requests use the native Apple or Google APIs. Advertising SDK data handling is described below.
   </p>
 
-  <h3>2. Advertising (AdMob)</h3>
+  <h3>2. Advertising (AdMob / Unity Ads)</h3>
   <p>
-    This app displays banner advertisements provided by Google AdMob (Google LLC).
-    AdMob may collect the following information to serve and optimise ads:
+    This app displays Unity Ads banners on the start screen and Google AdMob (Google LLC) banners during games.
+    These advertising services may collect the following information to serve and optimise ads:
   </p>
   <ul>
     <li>Advertising identifiers (IDFA on iOS / GAID on Android)</li>
     <li>Device information (OS version, device model, etc.)</li>
     <li>IP address (used to estimate approximate location)</li>
-    <li>Anonymous usage statistics related to app activity</li>
+    <li>Ad impressions, ad interactions, and diagnostic information</li>
   </ul>
   <p>
     On iOS, the app presents an App Tracking Transparency (ATT) prompt before delivering personalised ads,
@@ -245,10 +246,12 @@
     </a>
   </p>
 
+  <p>For details about Unity Ads data handling, see the <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity Privacy Policy</a>.</p>
+
   <h3>3. Sharing of Information</h3>
   <p>
     We do not sell, trade, or otherwise transfer user information to third parties for any purpose
-    other than ad delivery via AdMob.
+    other than ad delivery via AdMob or Unity Ads.
   </p>
 
   <h3>4. Children's Privacy</h3>
@@ -260,8 +263,7 @@
 
   <h3>5. Security</h3>
   <p>
-    Because this app operates without a backend server and does not transmit gameplay data externally,
-    there is no server-side risk of data breach. Data stored on your device is protected by your
+    The developer does not operate a server that stores gameplay data. Communications related to advertising SDKs and update checks are subject to the respective service providers’ data practices. Data stored on your device is protected by your
     operating system's built-in security features.
   </p>
 
